@@ -1,5 +1,5 @@
 # Pangram
-<i>Determine if a sentence is a pangram…</i>
+<i>Determine if a sentence is a pangram…</i> (aka uses all letters of the alphabet at least once.)
 
 # Write a production ready solution to the following  requirements ->
 
