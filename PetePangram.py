@@ -16,18 +16,17 @@ import string
 
 # set alphabet  
 alphabet = "abcdefghijklmnopqrstuvwxyz"
-# let user enter the sentence of their choosing. lowercasing everything so it can be consistently checked against the alphabet variable.
+# let user enter the sentence of their choosing. 
 sentence = input("Enter your sentence here... (Steve not Pete): ")
 
 
 # Function that loops to check that each letter listen in the 'alphabet' variable is listed at least once. 
-# if all letters are accounted for it returns True. If not it returns False
+# If all letters are accounted for it returns True. If not it returns False
 def ispangram(str): 
     for char in alphabet: 
-        #letters are lowercased so they can be checked. however this won't change the sentence if any of the letters are capitlized. 
+        #Letters are lowercased so they can be checked. This won't change the sentence if any of the letters are capitlized. 
         if char not in str.lower(): 
             return False
-  
     return True
 
 # Function sorts the alphabet and the sentence then prints whatever letters are missing. 
@@ -35,10 +34,10 @@ def missing_letters(str):
     return ''.join(sorted(set(alphabet) - set(str.lower())))
       
 
-# this if statement passes the sentence through the 'ispangram' test. Then prints True 
-if(ispangram(sentence)): 
+# this if sentence passes the sentence through the 'ispangram' test. Then prints True 
+if(ispangram(sentence) == True): 
     print("True", "'", sentence, "'", "is a pangram.")
-# if stat
+# if sentence fails pangram test then send it through 'missing_letters' to see what letters are missing and print them.
 else: 
     print("False", "'", sentence, "'", "is NOT a pangram.", "\n",
             "You're missing: ", missing_letters(sentence))
