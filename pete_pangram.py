@@ -10,6 +10,8 @@
 # https://docs.python.org/2/tutorial/classes.html
 # https://pep8.org/#module-level-dunder-names
 # -----------------------------------------------------
+#example pangram: The five boxing wizards jump quickly
+
 
 import string 
 from pangram_classes import PangramChecker
@@ -23,7 +25,7 @@ sentence = input("Enter your sentence here... (Steve not Pete): ")
 check = PangramChecker(sentence)
 
 # this if sentence passes the sentence through the 'ispangram' test. Then prints True 
-if(check.ispangram()): 
+if(check.is_pangram()): 
     print("True", "'", sentence, "'", "is a pangram.")
 # if sentence fails pangram test then send it through 'missing_letters' to see what letters are missing and print them.
 else: 
