@@ -4,7 +4,14 @@ class PangramChecker:
 
     def __init__(self,sentence):
         self.sentence = sentence
-        
+
+    #included Dunder methods to represent the PangramChecker class. (https://dbader.org/blog/python-dunder-methods)    
+    def __repr__(self):
+        return 'PangramChecker({!r}, {!r})'.format(self.sentence, self.alphabet)
+
+    def __str__(self):
+        return 'PangramChecker sentence {}: with alphabet {}'.format(self.sentence, self.alphabet)
+
     # getter method 
     def get_sentence(self): 
         return self.sentence 

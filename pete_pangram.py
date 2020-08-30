@@ -9,6 +9,7 @@
 # https://www.thetopsites.net/article/55265024.shtml
 # https://docs.python.org/2/tutorial/classes.html
 # https://pep8.org/#module-level-dunder-names
+# https://dbader.org/blog/python-dunder-methods
 # -----------------------------------------------------
 #example pangram: The five boxing wizards jump quickly
 
