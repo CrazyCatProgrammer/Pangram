@@ -8,6 +8,7 @@
 # https://pep8.org/#module-level-dunder-names
 # https://dbader.org/blog/python-dunder-methods
 # Sphinx Documentation: https://medium.com/better-programming/auto-documenting-a-python-project-using-sphinx-8878f9ddc6e9
+#                     : https://sphinx-rtd-tutorial.readthedocs.io/en/latest/read-the-docs.html#changing-the-settings 
 # -----------------------------------------------------
 #example pangram: The five boxing wizards jump quickly
 
