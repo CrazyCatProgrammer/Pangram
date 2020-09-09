@@ -15,6 +15,7 @@ import pangram_classes
 # python -m unittest test_checker.py
 
 class TestPangramChecker(unittest.TestCase):
+    """Unit testing with pre set variables to check that PangramChecker is running smoothly"""
     good_sentence = "The five boxing wizards jump quickly"
     bad_sentence = "bleh"
 
@@ -27,5 +28,3 @@ class TestPangramChecker(unittest.TestCase):
         check = pangram_classes.PangramChecker(self.bad_sentence)
         result = check.is_pangram()
         self.assertFalse(result)
-
-
