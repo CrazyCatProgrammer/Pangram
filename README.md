@@ -1,3 +1,6 @@
+# To view more documentation on this project visit
+https://robyn-collins-pangram.readthedocs-hosted.com/_/sharing/b8b7iulst7iaw32sa80sd33p
+
 # Pangram with Python
 <i>Determine if a sentence is a pangram…</i> (aka uses all letters of the alphabet at least once.)
 
@@ -9,15 +12,6 @@
 
 Submit all code, artifacts, instructions, etc for the solution to GitHub.
 
-
-
-<!-- - Instructions for importing the dependency into your project -->
-- Dependencies:
-    - Python 3.8.5
-
-- How to add the sources: 
-    - Python 3.8.5 Download (https://www.python.org/downloads/release/python-385/)
-
 - How to run the project locally:
 ```
 python pete_pangram.py 
@@ -27,6 +21,3 @@ python pete_pangram.py
 ```
 python -m unittest test_checker.py
 ```
-
-- Where to view online documentation:
-    https://github.com/CrazyCatProgrammer/Pangram
